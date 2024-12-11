@@ -22,7 +22,7 @@ How to invoke & create a README file Video.
 Video made with Vcode and Screencastify.
 
 ## Tests
-This process needs "npm install inquirer". THEN run command: node index.js. Video link: http://drive.google.com/file/d/1n8NRqm_41VV-KK5nKM4g4vpPynQ1-4io/view?usp=drive_link
+This process needs "npm install inquirer". THEN run command: node index.js. Video link: [http://drive.google.com/file/d/1n8NRqm_41VV-KK5nKM4g4vpPynQ1-4io/view?usp=drive_link](https://drive.google.com/file/d/1-lF1GpVndvTXSVMcdUfTFHegG1t3O4U8/view?usp=sharing)
 
 ## License
 This project is not licensed.
