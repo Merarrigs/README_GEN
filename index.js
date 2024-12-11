@@ -6,12 +6,12 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'Enter the project title:',
+    message: 'Enter project title:',
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Enter a short description of the project:',
+    message: 'Enter project description:',
   },
   {
     type: 'input',
@@ -37,7 +37,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Choose a license for your project:',
-    choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None']
+    choices: ['Apache 2.0', 'MIT','GPL 3.0', 'None']
   },
   {
     type: 'input',
@@ -125,9 +125,9 @@ const init = async () => {
 
 const answers = await inquirer.prompt(questions);
 
- const data = generateREADME(answers);
+ const content = generateREADME(answers);
 
-writeFile(data);
+writeFile(content);
 } catch (err) {
     console.error('Error:', err);
     }
